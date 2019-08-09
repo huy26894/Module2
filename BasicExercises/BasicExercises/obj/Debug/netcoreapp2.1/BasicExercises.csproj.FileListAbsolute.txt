@@ -1,0 +1,11 @@
+D:\Module2\BasicExercises\BasicExercises\obj\Debug\netcoreapp2.1\BasicExercises.csprojAssemblyReference.cache
+D:\Module2\BasicExercises\BasicExercises\obj\Debug\netcoreapp2.1\BasicExercises.csproj.CoreCompileInputs.cache
+D:\Module2\BasicExercises\BasicExercises\obj\Debug\netcoreapp2.1\BasicExercises.AssemblyInfoInputs.cache
+D:\Module2\BasicExercises\BasicExercises\obj\Debug\netcoreapp2.1\BasicExercises.AssemblyInfo.cs
+D:\Module2\BasicExercises\BasicExercises\bin\Debug\netcoreapp2.1\BasicExercises.deps.json
+D:\Module2\BasicExercises\BasicExercises\bin\Debug\netcoreapp2.1\BasicExercises.runtimeconfig.json
+D:\Module2\BasicExercises\BasicExercises\bin\Debug\netcoreapp2.1\BasicExercises.runtimeconfig.dev.json
+D:\Module2\BasicExercises\BasicExercises\bin\Debug\netcoreapp2.1\BasicExercises.dll
+D:\Module2\BasicExercises\BasicExercises\bin\Debug\netcoreapp2.1\BasicExercises.pdb
+D:\Module2\BasicExercises\BasicExercises\obj\Debug\netcoreapp2.1\BasicExercises.dll
+D:\Module2\BasicExercises\BasicExercises\obj\Debug\netcoreapp2.1\BasicExercises.pdb
