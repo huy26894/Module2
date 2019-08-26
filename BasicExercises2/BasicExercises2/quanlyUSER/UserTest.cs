@@ -47,8 +47,8 @@ namespace BasicExercises2.quanlyUSER
                 case 2:
                     {
                         Console.WriteLine("Check Users ...");
-                        var name = Console.ReadLine();
-                        Search(name);
+                        
+                        CheckkUser();
                         break;
                     }
                 case 3:
@@ -90,20 +90,30 @@ namespace BasicExercises2.quanlyUSER
             PhoneList.Add(Id,user);
         }
 
-        public static void Search(string name)
+        public static void CheckkUser()
         {
-            if (PhoneList != null || PhoneList.Count > 0)
+            Console.Write("Please input user name: ");
+            var name = Console.ReadLine();
+            Console.Write("Please input user passwork: ");
+            var passwork = Console.ReadLine();
+
+            var isExits = false;
+            foreach (KeyValuePair<int, User> item in PhoneList)
             {
-                foreach (KeyValuePair<int, User> item in PhoneList)
+                if (item.Value.Name == name && item.Value.Password == passwork) // item.Value = User 
                 {
-                    if (item.Value.Name == name)
-                    {
-                        Console.WriteLine(item.Value.Info());
-                        break;
-                    }   // item.Value = User
-                    
-                }
-            }           
+                    isExits = true;
+                    break;
+                }                                                                                      
+            } 
+            if (isExits)
+            {
+                Console.WriteLine("User checked");
+            }
+            else
+            {
+                Console.WriteLine("User not found");
+            }
         }
 
         public static void Display()
