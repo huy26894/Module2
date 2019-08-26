@@ -1,0 +1,11 @@
+D:\Module2\UniTest\UniTest\bin\Debug\netcoreapp2.1\UniTest.deps.json
+D:\Module2\UniTest\UniTest\bin\Debug\netcoreapp2.1\UniTest.runtimeconfig.json
+D:\Module2\UniTest\UniTest\bin\Debug\netcoreapp2.1\UniTest.runtimeconfig.dev.json
+D:\Module2\UniTest\UniTest\bin\Debug\netcoreapp2.1\UniTest.dll
+D:\Module2\UniTest\UniTest\bin\Debug\netcoreapp2.1\UniTest.pdb
+D:\Module2\UniTest\UniTest\obj\Debug\netcoreapp2.1\UniTest.csprojAssemblyReference.cache
+D:\Module2\UniTest\UniTest\obj\Debug\netcoreapp2.1\UniTest.csproj.CoreCompileInputs.cache
+D:\Module2\UniTest\UniTest\obj\Debug\netcoreapp2.1\UniTest.AssemblyInfoInputs.cache
+D:\Module2\UniTest\UniTest\obj\Debug\netcoreapp2.1\UniTest.AssemblyInfo.cs
+D:\Module2\UniTest\UniTest\obj\Debug\netcoreapp2.1\UniTest.dll
+D:\Module2\UniTest\UniTest\obj\Debug\netcoreapp2.1\UniTest.pdb
