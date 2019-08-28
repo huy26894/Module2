@@ -7,6 +7,7 @@ namespace BasicExercises2.quanlyUSER
     public class User : IUser
     {
         public List<int?> phoneList = new List<int?>();
+
         protected int id;
         protected string name;
         protected string password;
