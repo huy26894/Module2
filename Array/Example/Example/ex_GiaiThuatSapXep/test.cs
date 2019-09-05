@@ -8,14 +8,21 @@ namespace Example.exSort_Chọn_selection_
     public class test
     {
         public static int[] array = { 5, 5, 2, 8, 9, 4, 10 , 1, -3, 7, 11};
+        
         public static void Main()
         {
-            Console.WriteLine(string.Join(",", array));
+            Console.WriteLine("Mang da cho : [{0}] ",string.Join(",", array));
             SeletionSort();
             InsertionSort();
             BubbleSort();
-            //QuickSort(0,array.Length-1); 
-            
+            QuickSort(0, array.Length - 1);
+            Console.WriteLine("Mang da cho sap xep theo quick sort : [{0}] ", string.Join(",", array));
+
+            Console.Write("Nhap so can tim:  ");           
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine(TimKiemNhiPhan(array, 0, array.Length - 1, n));
+           
+
         }
         public static void SeletionSort()  // sắp xếp chọn
         {
@@ -35,7 +42,7 @@ namespace Example.exSort_Chọn_selection_
                 array[i] = array[pos];
                 array[pos] = temp;
             }
-            Console.WriteLine("Mang sap xep tang dan theo selection sort la: " + String.Join(",", array));
+            Console.WriteLine("Mang da cho sap xep theo selection sort la: " + String.Join(",", array));
         }
 
         public static void InsertionSort()  // sắp xếp chèn
@@ -52,7 +59,7 @@ namespace Example.exSort_Chọn_selection_
                 }
                 array[pos + 1] = x;
             }
-            Console.WriteLine("Mang sap xep tang dan theo insertion sort la: " + String.Join(",", array));
+            Console.WriteLine("Mang da cho sap xep theo insertion sort la: " + String.Join(",", array));
         }
 
         public static void BubbleSort()  // sắp xếp nổi bọt
@@ -70,17 +77,17 @@ namespace Example.exSort_Chọn_selection_
                     }                     
                 }
             }
-            Console.WriteLine("Mang sap xep tang dan theo bubble sort la: " + String.Join(",", array));
+            Console.WriteLine("Mang da cho sap xep theo bubble sort la: " + String.Join(",", array));
         }
 
-        /*public static void QuickSort(int left, int right)
+        public static void QuickSort(int left, int right)
         {
 
             int i = left;
             int j = right;
             int pivot = array[(left + right) / 2];
 
-            while(i < j)
+            while (i < j)
             {
                 while (array[i] < pivot)
                     i++;
@@ -99,10 +106,33 @@ namespace Example.exSort_Chọn_selection_
                 QuickSort(left, j);
             if (i < right)
                 QuickSort(i, right);
+         
+        }
 
-            Console.WriteLine("Mang sap xep tang dan theo quick sort la: " + String.Join(",", array));
+        public static string TimKiemNhiPhan(int[] Arr, int left, int right, int value)
+        {
+            
+            while (left <= right)
+            {
+                int mid = (left + right) / 2;
+                if (Arr[mid] == value)
+                {
+                    return $"Tim kiem nhi phan tim thay gia tri {value} tai vi tri {mid}";
+                }
+                else
+                {
+                    if (Arr[mid] > value)
+                    {
+                        right = mid - 1;
+                    }
+                    else 
+                    {
+                        left = mid + 1;
+                    }
+                }
+            }
+            return $"Khong tim thay";
+        }
 
-        }*/
-        
     }
 }

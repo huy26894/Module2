@@ -32,7 +32,7 @@ namespace BasicExercises2.quanlySTUDENT
                     option = number;
                 }
             }
-            while (option > 5 || option <= 0);
+            while (option >= 5 || option <= 0);
             Process(option);
         }
 

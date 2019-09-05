@@ -6,9 +6,9 @@ namespace BasicExercises2.Class
 {
     class PhotoAlbum
     {
-        private int numberOfPages;
-        
-        public PhotoAlbum()           // vị trí khai báo trong 1 class : 1 - biến , 2 - consutructor , 3 - phuơng thức
+        private int numberOfPages;        // vị trí khai báo trong 1 class : 1 - biến , 2 - consutructor , 3 - phuơng thức
+
+        public PhotoAlbum()           
         {
             NumberOfPages = 16;
            // Console.WriteLine(NumberOfPages);

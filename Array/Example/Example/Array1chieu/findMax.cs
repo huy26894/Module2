@@ -13,8 +13,7 @@ namespace Example.Array1chieu
             Console.WriteLine("Array : [{0}]", string.Join(",", array));
             FindMax();
             FindMin();
-            Reverse();
-            
+            Reverse();   
         }
 
         public static void FindMax()

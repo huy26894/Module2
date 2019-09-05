@@ -1,0 +1,11 @@
+D:\Module2\baithi\baithi\obj\Debug\netcoreapp2.1\baithi.csprojAssemblyReference.cache
+D:\Module2\baithi\baithi\obj\Debug\netcoreapp2.1\baithi.csproj.CoreCompileInputs.cache
+D:\Module2\baithi\baithi\obj\Debug\netcoreapp2.1\baithi.AssemblyInfoInputs.cache
+D:\Module2\baithi\baithi\obj\Debug\netcoreapp2.1\baithi.AssemblyInfo.cs
+D:\Module2\baithi\baithi\bin\Debug\netcoreapp2.1\baithi.deps.json
+D:\Module2\baithi\baithi\bin\Debug\netcoreapp2.1\baithi.runtimeconfig.json
+D:\Module2\baithi\baithi\bin\Debug\netcoreapp2.1\baithi.runtimeconfig.dev.json
+D:\Module2\baithi\baithi\bin\Debug\netcoreapp2.1\baithi.dll
+D:\Module2\baithi\baithi\bin\Debug\netcoreapp2.1\baithi.pdb
+D:\Module2\baithi\baithi\obj\Debug\netcoreapp2.1\baithi.dll
+D:\Module2\baithi\baithi\obj\Debug\netcoreapp2.1\baithi.pdb

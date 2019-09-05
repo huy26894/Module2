@@ -1,0 +1,4 @@
+Tổng đường chéo chính A: 6
+Tổng đường chéo phụ B: 14
+Có 2 số chẵn
+Có 1 số nguyên tố

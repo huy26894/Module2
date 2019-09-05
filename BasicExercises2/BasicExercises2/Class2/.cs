@@ -22,7 +22,7 @@ namespace BasicExercises2.Class2
         }
         public virtual int Area()
         {
-            return x * y;  // // dùng virtual ở pthuc of class cha để can thay đổi phương thức của lớp con.
+            return x * y;   // dùng virtual ở pthuc of class cha để can thay đổi phương thức của lớp con.
         }
         public virtual int Perimeter()
         {
